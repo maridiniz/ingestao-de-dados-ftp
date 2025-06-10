@@ -73,4 +73,4 @@ Entre as dependências listadas abaixo, algumas não são padrões do Python, ou
 
 Abaixo um screenshot que demonstra a função retornando o DataFrame e que pode posteriormente ser explorado para mitigar respostas e criar iniciativas públicas baseadas nos   insights destes dados.
   
-![Output](/image/sample_output_dataframe.png)
+![Output](/assets/sample_output_dataframe.png)
