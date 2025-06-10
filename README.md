@@ -44,7 +44,7 @@ graph TD
 ## Lista das Dependências
 Entre as dependências listadas abaixo, algumas não são padrões do Python, ou seja, necessitam instalação para que sejam importadas e utilizadas.
 
-*Depencias principais:*
+*Dependências principais:*
 - `pandas >= 2.0`
 - `py7zr >= 1.0`
 
