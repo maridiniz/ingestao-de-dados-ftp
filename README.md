@@ -1,5 +1,7 @@
 # Ingestão de dados em Python (ETL)
 
+---
+
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Python](https://img.shields.io/badge/Python-3.7%20|%203.8%20|%203.9%20|%203.10-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-brightgreen)
@@ -12,6 +14,7 @@ disponibilizados em um servidor FTP do Ministério do Trabalho. Como os dados s�
 de interesse público, o link e as instruções de como acessá-lo podem ser encontrados [aqui.](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged) 
 Todo o processo foi construído na linguagem Python e o código pode ser acessado [aqui](/python_scripts/data_ingestion_ftp_server.ipynb)
 
+---
 
 ## Descrição do projeto
 No projeto é definida uma função que lê os dados RAIS, — Referente aos vínculos públicos apenas do estado de São Paulo — cria um diretório temporário para armazenar e posteriormente descompactar esses dados — Pois os dados se encontram compactados em formato 7z — para em fim retorná-los em um DataFrame pandas para futura análise. 
@@ -40,6 +43,8 @@ graph TD
     style E fill:#607D8B,color:white
 ```
 
+---
+
 
 ## Lista das Dependências
 Entre as dependências listadas abaixo, algumas não são padrões do Python, ou seja, necessitam instalação para que sejam importadas e utilizadas.
@@ -53,6 +58,7 @@ Entre as dependências listadas abaixo, algumas não são padrões do Python, ou
 - `temfile`
 - `urllib`
 
+---
 
 ## Descrição da Função
 - parâmetros:
@@ -71,6 +77,6 @@ Entre as dependências listadas abaixo, algumas não são padrões do Python, ou
 
 ## Exemplo de output:
 
-Abaixo um screenshot que demonstra a função retornando o DataFrame e que pode posteriormente ser explorado para mitigar respostas e criar iniciativas públicas baseadas nos   insights destes dados.
+Abaixo um screenshot que demonstra a função retornando o DataFrame, que será utilizado posteriormente para extrair insights nos meus próximos projetos de análise de dados.
   
 ![Output](/assets/sample_output_dataframe.png)
