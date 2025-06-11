@@ -53,7 +53,7 @@ Entre as dependências listadas abaixo, algumas não são padrões do Python, ou
 - `pandas >= 2.0`
 - `py7zr >= 1.0`
 
-*Dependências padrões*
+*Dependências padrões:*
 - `os`
 - `temfile`
 - `urllib`
